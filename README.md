@@ -1,4 +1,4 @@
-# RotaryPad_NirCmd_AHK
+# RotaryPad-Files
 AHK background script for using my RotaryPad to contol system volumes via NirCmd commands.
 This is inspired by the methods used by Taran at https://github.com/TaranVH/2nd-keyboard.
 

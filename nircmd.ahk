@@ -19,7 +19,7 @@ F24::return
 F1:: Run nircmd.exe ""changesysvolume -1638"" 
 F2:: Run nircmd.exe ""changesysvolume 1638""
 F3:: Run nircmd.exe ""mutesysvolume 2""
-F4:: Run nircmd.exe ""setsysvolume 65535"" ; was 49151 for 75%, 65535 is 100% ;
+F4:: Run nircmd.exe ""setsysvolume 32767"" ; was 49151 for 75%, 32767 is 50% ;
 ;--------------------------------------------------;
 ; focused block encoder 1 ;
 F5:: Run nircmd.exe ""changeappvolume focused -.05""
@@ -52,10 +52,10 @@ F12:: Run nircmd.exe ""setappvolume spotify.exe .25""
 =:: Run nircmd.exe ""setappvolume voicemeeterpro.exe .25""
 ;--------------------------------------------------;
 ; encoder 6 ;
-numpad1:: ; Run nircmd.exe ""changeappvolume firefox.exe -.025""
-numpad2:: ; Run nircmd.exe ""changeappvolume firefox.exe .025""
-numpad3:: ; Run nircmd.exe ""muteappvolume firefox.exe 2""
-numpad4:: ; Run nircmd.exe ""setappvolume firefox.exe .25""
+numpad1:: ; Run nircmd.exe ""changeappvolume voicemeeterpro.exe -.05""
+numpad2:: ; Run nircmd.exe ""changeappvolume voicemeeterpro.exe .05""
+numpad3:: ; Run nircmd.exe ""muteappvolume voicemeeterpro.exe 2""
+numpad4:: ; Run nircmd.exe ""setappvolume voicemeeterpro.exe .25""
 ;--------------------------------------------------;
 ; encoder 7 ;
 numpad5:: ; Run nircmd.exe ""changeappvolume firefox.exe -.025""
